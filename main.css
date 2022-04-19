@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: #477277
 }
 
 body {
@@ -50,6 +51,10 @@ section {
     height: 40vh
 }
 
+.About p {
+    width: 90%;
+}
+
 .Music {
     height: 40vh;
 }
@@ -74,18 +79,15 @@ section h1 {
 
 .Contact h3 {
     font-size: 1.5rem;
-    color: white;
 }
 
 .Contact p {
     font-size: .8rem;
-    color: white;
     margin-top: 10px;
 }
 
 .Contact a {
     font-size: 1.5rem;
-    color: white;
     margin-top: 30px;
 }
 
@@ -135,7 +137,6 @@ section h1 {
         text-decoration: none;
         text-transform: uppercase;
         font-size: 2vw;
-        color: #f4f4f4;
     }
     nav ul li a:hover {
         color: red;

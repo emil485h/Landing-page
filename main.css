@@ -14,10 +14,10 @@ body {
 }
 
 .nav-ul {
-  display: flex;
-  list-style: none;
-  width: 100%;
-  justify-content: center;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
 }
 
 .container {
@@ -63,15 +63,11 @@ section {
     display: none
 }
 
- footer {
-   justify-content: center;
- }
+footer {
+    justify-content: center;
+}
 
-
-
- 
-  
-  section h1 {
+section h1 {
     font-size: 1.5rem;
     color: red;
 }
@@ -87,6 +83,28 @@ section {
     margin-top: 10px;
 }
 
+.Contact a {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    height: 7vh;
+    background-color: black;
+}
+
+.footer ul {
+    width: 98vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
 
 
 /*tablet og pc størrelse*/
@@ -148,10 +166,10 @@ section {
         background-color: #9FDBE3;
         height: 93vh
     }
-
-    .footer{
-      height: 7vh;
-      justify-content: space-evenly;
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        height: 7vh;
     }
     section h1 {
         font-size: 3rem;
@@ -159,11 +177,6 @@ section {
     }
     .Contact h3 {
         font-size: 3rem;
-    }
-    .Contact a {
-        font-size: 1.5rem;
-        color: white;
-        margin-top: 30px;
     }
     .Contact a:hover {
         color: red;

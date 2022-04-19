@@ -122,7 +122,8 @@ section h1 {
     }
     .About {
         background-color: #9FDBE3;
-        height: 100vh
+        height: 100vh;
+        font-size: 2rem
     }
     .Music {
         height: 100vh;
@@ -132,14 +133,18 @@ section h1 {
         height: 100vh
     }
     section h1 {
-        font-size: 3rem
+        font-size: 3rem;
+        padding-top: 50px
     }
     .Contact h3 {
         font-size: 3rem;
     }
-    .Contact p {
+    .Contact a {
         font-size: 1.5rem;
         color: white;
         margin-top: 30px;
+    }
+    .Contact a:hover {
+        color: red;
     }
 }

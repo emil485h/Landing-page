@@ -34,7 +34,7 @@ section {
     scroll-snap-align: center;
 }
 
-.video {
+.Video {
     height: 30vh;
 }
 
@@ -117,7 +117,7 @@ section h1 {
         /* Scroll Snap */
         scroll-snap-align: center;
     }
-    .video {
+    .Video {
         height: 100vh;
     }
     .About {

@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merienda';
     color: #fff;
     height: 100vh;
     line-height: 1.6;
@@ -108,7 +108,7 @@ section h1 {
     text-decoration: none;
 }
 
-.footer ul li a:hover{
+.footer ul li a:hover {
     color: red;
 }
 
@@ -117,24 +117,24 @@ section h1 {
     border-radius: 30px
 }
 
-.Music audio{
+.Music audio {
     margin-top: 2rem;
     width: 80%;
 }
 
-.Music h4{
+.Music h4 {
     color: red;
-    margin-top:10px;
+    margin-top: 10px;
     margin-bottom: -30px;
 }
 
-.Music .playlist li, i{
+.Music .playlist li,
+i {
     font-weight: bold;
     list-style: none;
-    
 }
 
-.active{
+.active {
     color: red
 }
 
@@ -144,15 +144,11 @@ section h1 {
 audio::-webkit-media-controls-play-button {
     background-color: white;
     border-radius: 50%;
-  }
+}
 
 audio::-webkit-media-controls-panel {
     background-color: #8AC3CB;
-  }
-
-
-
-
+}
 
 
 /*tablet og pc størrelse*/
@@ -168,7 +164,6 @@ audio::-webkit-media-controls-panel {
         display: flex;
         width: 100%;
         height: 60px;
-        
     }
     .nav-ul {
         display: flex;
@@ -206,7 +201,7 @@ audio::-webkit-media-controls-panel {
         height: 100vh;
         font-size: 2rem;
         background-image: url(hanne_blur.png);
-        background-size:cover
+        background-size: cover
     }
     .Music {
         height: 100vh;
@@ -230,7 +225,6 @@ audio::-webkit-media-controls-panel {
     .Contact a:hover {
         color: red;
     }
-
     .Music audio {
         max-width: 900px;
     }

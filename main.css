@@ -193,6 +193,11 @@ audio::-webkit-media-controls-panel {
         /* Scroll Snap */
         scroll-snap-align: center;
     }
+    .container-text {
+        width: 40%;
+        display: block;
+        margin-left: 50%;
+    }
     .Video {
         height: 100vh;
     }
@@ -227,5 +232,8 @@ audio::-webkit-media-controls-panel {
     }
     .Music audio {
         max-width: 900px;
+    }
+    .Music .playlist li i {
+        font-size: 1.2rem;
     }
 }

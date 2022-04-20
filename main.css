@@ -201,6 +201,7 @@ audio::-webkit-media-controls-panel {
         scroll-snap-align: center;
     }
     .container-text {
+        font-size: 1rem;
         width: 40%;
         display: block;
         margin-left: 50%;
@@ -246,4 +247,7 @@ audio::-webkit-media-controls-panel {
     .Music .playlist li i {
         font-size: 1.2rem;
     }
+}
+
+
 }

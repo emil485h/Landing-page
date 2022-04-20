@@ -204,7 +204,9 @@ audio::-webkit-media-controls-panel {
     .About {
         background-color: #9FDBE3;
         height: 100vh;
-        font-size: 2rem
+        font-size: 2rem;
+        background-image: url(hanne_blur.png);
+        background-size:cover
     }
     .Music {
         height: 100vh;

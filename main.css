@@ -43,16 +43,23 @@ section {
 }
 
 .Video {
-    height: 30vh;
+    height: 40vh;
 }
 
 .About {
     background-color: #9FDBE3;
-    height: 50vh
+    height: 75vh;
 }
 
 .About p {
     width: 90%;
+}
+
+.About img {
+    height: 200px;
+    width: 90%;
+    max-width: 320px;
+    border-radius: 30px;
 }
 
 .Music {
@@ -128,8 +135,6 @@ section h1 {
     margin-bottom: -30px;
 }
 
-.Music .img-box {}
-
 .Music .img-box img {
     margin-top: 20px;
     width: 70%;
@@ -163,6 +168,9 @@ audio::-webkit-media-controls-panel {
 @media screen and (min-width: 426px) {
     .mobile {
         display: flex;
+    }
+    .pc-hide {
+        display: none;
     }
     nav {
         position: fixed;
@@ -247,7 +255,4 @@ audio::-webkit-media-controls-panel {
     .Music .playlist li i {
         font-size: 1.2rem;
     }
-}
-
-
 }

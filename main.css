@@ -48,7 +48,7 @@ section {
 
 .About {
     background-color: #9FDBE3;
-    height: 40vh
+    height: 50vh
 }
 
 .About p {
@@ -56,7 +56,7 @@ section {
 }
 
 .Music {
-    height: 70vh;
+    height: 83vh;
 }
 
 .Contact {
@@ -126,6 +126,13 @@ section h1 {
     color: red;
     margin-top: 10px;
     margin-bottom: -30px;
+}
+
+.Music .img-box {}
+
+.Music .img-box img {
+    margin-top: 20px;
+    width: 70%;
 }
 
 .Music .playlist li,
@@ -210,6 +217,9 @@ audio::-webkit-media-controls-panel {
     }
     .Music {
         height: 100vh;
+    }
+    .Music .img-box {
+        height: 430px;
     }
     .Contact {
         background-color: #9FDBE3;

@@ -163,7 +163,7 @@ audio::-webkit-media-controls-panel {
 }
 
 
-/*Test*/
+/*Musik afspiller - har brugt en youtube video som hjælp*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 @keyframes harlem {
@@ -250,6 +250,7 @@ h6 {
 
 .screen {
     background-color: #fff;
+    font-family: FontAwesome;
     padding: 0;
     height: 550px;
     width: 366px;

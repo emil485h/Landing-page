@@ -45,21 +45,7 @@
 
         </section>
 
-        <!-- <section class="Music" id="Music">
-            <div class="img-box">
-                <img src="Ukulele_Hanne_Cover.jpg" alt="cover">
-            </div>
-            <div>
-                <ul class="playlist">
-                    <li><i id="sut" class="active">Sut den op fra slap</i></li>
-                    <li><i id="swim">Swimmingpool</i></li>
-                    <li><i id="kae">Kælling, du kan ik' køre bil</i></li>
-                    <li><i id="sli">Slik</i></li>
-                    <li><i id="jeg">Jeg synes overhovedet ikke, det er sexistisk</i></li>
-                </ul>
-            </div>
-            <audio src="Sut_den_op_fra_slap.wav" type="audio/wav" controls controlsList="nodownload noplaybackrate"> </audio>
-        </section> -->
+        <!-- Har brugt en youtue video til hjælp -->
         <section class="Music">
             <section class="screen" id="screen">
                 <input type="checkbox" name="check" id="magicButton" value="None">
@@ -172,20 +158,7 @@
                 </div>
             </section>
         </section>
-        <script>
-            var audio = document.getElementById('audio');
-            var playpause = document.getElementById("play");
 
-            function togglePlayPause() {
-                if (audio.paused || audio.ended) {
-                    playpause.title = "Pause";
-                    audio.play();
-                } else {
-                    playpause.title = "Play";
-                    audio.pause();
-                }
-            }
-        </script>
 
 
 
@@ -212,7 +185,20 @@
         </section>
 
     </div>
+    <script>
+        var audio = document.getElementById('audio');
+        var playpause = document.getElementById("play");
 
+        function togglePlayPause() {
+            if (audio.paused || audio.ended) {
+                playpause.title = "Pause";
+                audio.play();
+            } else {
+                playpause.title = "Play";
+                audio.pause();
+            }
+        }
+    </script>
 </body>
 
 </html>
